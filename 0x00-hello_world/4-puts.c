@@ -1,4 +1,4 @@
-#Include <stdio.h>
+#include <stdio.h>
 
 /**
  *  *main - The puts command prints outputs differently from the printf command
