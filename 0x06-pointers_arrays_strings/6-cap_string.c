@@ -14,8 +14,8 @@ char *cap_string(char *s)
 	{
 		if (*(s + i) >= 'a' && *(s + i) <= 'z')
 		{
-			f (i == 0)
-				*(s + i) -= 'a' - 'A';
+			f(i == 0)
+				* (s + i) -= 'a' - 'A';
 			else
 			{
 				for (j = 0; j <= 12; j++)
