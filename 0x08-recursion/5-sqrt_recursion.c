@@ -11,9 +11,9 @@
 int sqrt2(int a, int b)
 {
 	if (b * b == a)
-			return (b);
+		return (b);
 	else if (b * b > a)
-			return (-1);
+		return (-1);
 	return (sqrt2(a, b + 1));
 }
 /**
