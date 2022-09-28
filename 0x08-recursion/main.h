@@ -1,5 +1,7 @@
+#ifndef MAIN.H
+#define MAIN.H
+
 void _puts_recursion(char *s);
-void _print_rev_recursion(char *s);
 int _strlen_recursion(char *s);
 int factorial(int n);
 int _pow_recursion(int x, int y);
@@ -8,7 +10,7 @@ int is_prime_number(int n);
 int is_palindrome(char *s);
 int wildcmp(char *s1, char *s2);
 int _putchar(char s)
-<<<<<<< HEAD
-void check(*s, int start, int end, int *flag)	
-=======
->>>>>>> f38ee9655b6474189d437746d7eb5a2d6b3549aa
+void check(*s, int start, int end, int *flag)
+void _print_rev_recursion(char *s)
+
+#endif /* MAIN.H */
