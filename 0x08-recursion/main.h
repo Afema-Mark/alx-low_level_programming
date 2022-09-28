@@ -8,4 +8,7 @@ int is_prime_number(int n);
 int is_palindrome(char *s);
 int wildcmp(char *s1, char *s2);
 int _putchar(char c)
+<<<<<<< HEAD
 void check(*s, int start, int end, int *flag)	
+=======
+>>>>>>> f38ee9655b6474189d437746d7eb5a2d6b3549aa
