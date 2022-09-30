@@ -6,7 +6,7 @@
   *@argv: this is the argument vector
   *Return - This return 0
   */
-int main(argc, char *argv[]))
+int main(int argc, char *argv[])
 {
 	prinf("%s\n", argv[]);
 	(void)argc;
