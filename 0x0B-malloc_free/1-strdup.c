@@ -8,7 +8,7 @@
   * Return: NULL incase of error, poiner to allocated
   * space
   */
-char *_strdup(char *str);
+char *_strdup(char *str)
 {
 	char *cpy;
 	int index, len;
