@@ -1,4 +1,4 @@
-fndef _SHARED_LIB_H_
+#ifndef _SHARED_LIB_H_
 #define _SHARED_LIB_H_
 
 #include <stdlib.h>
